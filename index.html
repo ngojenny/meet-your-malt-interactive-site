@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>QUIZ</title>
+	<link href='https://fonts.googleapis.com/css?family=Vidaloka|Montserrat' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+</head>
+<body>
+	<!-- HEADER STARTS -->
+	<header>
+		<div class="wrapper">
+			<div class="container">
+				<h2>Find the perfect Scotch...</h2>
+				<h1>Meet your malt</h1>
+				<div class="button">
+					<a href="#flavourField" class="btn">Start Quiz!</a>
+				</div>
+			</div> <!-- /.container -->
+			<img src="images/scotchGlassEmpty.svg" alt="scotch glass">
+		</div>
+	</header>
+
+	<!-- MAIN CONTENT STARTS -->
+	<main>
+		<!-- form starts -->
+		<form action="">
+			<!-- Question 1/Flavour Preference question -->
+			<fieldset class="flavour" id="flavourField">
+				
+				<div class="wrapper">
+					<p>Which <span class="accent">flavour</span> do you prefer?</p>
+					<div class="choice">
+						<input type="radio" name="flavour" id="fruity" value="fruity" required>
+						<label for="fruity">fruity</label>
+					</div>
+					
+					<div class="choice">
+						<input type="radio" name="flavour" id="smokey" value="smokey" required>
+						<label for="smokey">smokey</label>
+					</div>
+					
+					<div class="choice">
+						<input type="radio" name="flavour" id="spicy" value="spicy">
+						<label for="spicy">spicy</label>
+					</div>
+
+					<div class="choice">
+						<input type="radio" name="flavour" id="herbal" value="herbal">
+						<label for="herbal">herbal</label>
+					</div>
+					
+					<div class="choice">
+						<input type="radio" name="flavour" id="sweet" value="sweet">
+						<label for="sweet">sweet</label>
+					</div>
+					
+					<div class="choice">
+						<input type="radio" name="flavour" id="floral" value="floral">
+						<label for="floral">floral</label>
+					</div>
+				</div> <!-- /.wrapper -->
+				<a href="#bodyField" class="btn">Next question</a>
+			</fieldset> <!-- /.question1/flavour -->
+
+			<!-- Question 2/Body Preference question -->
+			<fieldset class="body" id="bodyField">
+				<div class="wrapper">
+				<p>How <span class="accent">rich</span> do you like your Scotch?</p>
+					<div class="choice">
+						<input type="radio" name="body" id="light" value="light" required>
+						<label for="light">light</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="body" id="medium" value="medium">
+						<label for="medium">medium</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="body" id="rich" value="rich">
+						<label for="rich">rich</label>
+					</div>
+				</div> <!-- /.wrapper -->
+				<a href="#priceField" class="btn">Next Question</a>
+			</fieldset>
+
+			<!-- Question 3/Price Preference question -->
+			<fieldset class="price" id="priceField">
+				<div class="wrapper">
+				<p>What is your <span class="accent">price</span> range?</p>
+					<div class="choice">
+						<input type="radio" name="price" id="low" value="low" required>
+						<label for="low">low</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="price" id="midRange" value="middle">
+						<label for="midRange">mid-range</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="price" id="high" value="high">
+						<label for="high">high</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="price" id="noPreferencePrice" value="noPreference">
+						<label for="noPreferencePrice">no preference</label>
+					</div>
+				</div> <!-- /.wrapper -->
+				<a href="#regionField" class="btn">Next Question</a>
+			</fieldset>
+
+			<!-- Question 4/Region Preference question -->
+			<fieldset class="region" id="regionField">
+				<div class="wrapper">
+				<p>Choose a distillery <span class="accent">region</span></p>
+				<div class="description-box">
+					<p class="description description-speyside">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nemo impedit neque dolorum voluptate tenetur voluptatem delectus itaque quia temporibus!</p>
+					<p class="description description-highland">test</p>
+					<p class="description description-islay">Lorem ipsum dolor sit amet, consectetur adipiDignissimos nemo impedit neque dolorum voluptate tenetur voluptatem delectus itaque quia temporibus!</p>
+					<p class="description description-island">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nemo impedit neque dolorum vovoluptatem delectus itaque quia temporibus!</p>
+					<p class="description description-lowland">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nemo impedit neque dolorum voluptate tenetur voluptatem delectus itaque quia temporibus!</p>
+				</div>
+				
+					<div class="choice">
+						<input type="radio" name="region" id="speyside" value="speyside" required>
+						<label for="speyside">speyside</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="region" id="highland" value="highland">
+						<label for="highland">highland</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="region" id="islay" value="islay">
+						<label for="islay">islay</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="region" id="island" value="island">
+						<label for="island">island</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="region" id="lowland" value="lowland">
+						<label for="lowland">lowland</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="region" id="noPreferenceRegion" value="noPreference">
+						<label for="noPreferenceRegion">no preference</label>
+					</div>
+				</div> <!-- /.wrapper -->
+				<a href="#ageField" class="btn">Next Question</a>
+			</fieldset>
+
+			<!-- Question 5/Age Preference question -->
+			<fieldset class="age" id="ageField">
+				<div class="wrapper">
+				<p>How <span class="accent">old</span> do you want your Scotch to be?</p>
+					<div class="choice">
+						<input type="radio" name="age" id="twelve" value="12yr" required>
+						<label for="twelve">12 years & under</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="age" id="fourteen" value="14yr">
+						<label for="fourteen">14-18 years</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="age" id="eighteen" value="18yr">
+						<label for="eighteen">18 years & higher</label>
+					</div>
+					<div class="choice">
+						<input type="radio" name="age" id="noPreferenceAge" value="noPreference">
+						<label for="noPreferenceAge">no preference</label>
+					</div>
+				</div> <!-- /.wrapper -->
+				<input type="submit" value="Meet your malt!">
+			</fieldset>
+		</form> <!-- .form -->
+	</main>
+
+	<!-- RESULTS SECTION BEGINS -->
+	<section class="results" id="results">
+		<div class="wrapper">
+			<h2>Your perfect Scotch:</h2>
+			<h3></h3>
+			<ul class="possibleScotches">
+				<img src="images/scotchGlass.svg" alt="scotch glass">
+			</ul>
+			<a href="#" class="btn btn-retake">Retake the quiz</a>
+		</div> <!-- .wrapper -->
+	</section>
+
+	<!-- FOOTER BEGINS -->
+	<footer>
+		<div class="wrapper">
+			<p>Meet Your Malt created by <a href="##">Jenny Ngo</a> and <a href="##">Erin MacMillan</a></p> 
+			<p>SVG by <a href="##">Evan Shuster</a></p>
+		</div> <!-- /.wrapper -->
+	</footer>
+
+	<!-- JAVASCRIPT -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
